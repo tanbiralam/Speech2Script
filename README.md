@@ -2,9 +2,7 @@
 
 Speech2Text is a web application designed for transcribing speech to text. It provides an intuitive interface for users to upload audio files and receive their transcribed text output. The app employs powerful models from Hugging Face to ensure accurate and efficient transcription. It is capable of translating the audio clip upto 200+ languages. It uses Xenova Transformers which is a Hugging Face's transformers python library, meaning it can run the same pretrained models in user's browser.
 
-## Live View
-
-    You can view the deployed website here: https://speech2script.vercel.app/
+## [Live View](https://speech2script.vercel.app/)
 
 ## Used Models
 
