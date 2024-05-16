@@ -1,14 +1,17 @@
-export default function Footer() {
-    return (
-        <footer className='flex items-center justify-between gap-4 p-4'>
-            <div className='flex items-center gap-4'>
-                <a href="https://example.com/about" className='text-gray-600 cursor-pointer'>About Us</a>
-                <a href="https://example.com/contact" className='text-gray-600 cursor-pointer'>Contact</a>
-            </div>
-            <div className='flex items-center gap-4'>
-                <a href="https://example.com/terms" className='text-gray-600 cursor-pointer'>Terms of Service</a>
-                <a href="https://example.com/privacy" className='text-gray-600 cursor-pointer'>Privacy Policy</a>
-            </div>
-        </footer>
-    )
-}
+const Footer = () => {
+  return (
+    <footer className=" text-black py-8">
+      <div className="container mx-auto flex flex-col md:flex-row items-center justify-center px-4">
+        <div className="text-center md:text-left mb-4 md:mb-0">
+          <h2 className="text-lg font-semibold">Speech2Script</h2>
+
+          <p>
+            &copy; {new Date().getFullYear()} Tanbir Alam. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;

@@ -5,6 +5,7 @@ import FileDisplay from "./components/FileDisplay";
 import Information from "./components/Information";
 import { MessageTypes } from "./utils/presets";
 import Transcribing from "./components/Transcribing";
+import Footer from "./components/Footer";
 
 function App() {
   const [file, setFile] = useState(null)
@@ -92,7 +93,7 @@ function App() {
           <HomePage setFile={setFile} setAudioStream={setAudioStream} />
         )}
       </section>
-      <footer className="text-center font-medium">Built By Tanbir</footer>
+      <Footer/>
     </div>
   )
 }
